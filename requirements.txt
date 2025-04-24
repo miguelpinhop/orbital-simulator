@@ -1,0 +1,3 @@
+pyxel
+pandas
+pytest
