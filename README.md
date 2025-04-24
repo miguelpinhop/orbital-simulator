@@ -1,6 +1,6 @@
 # Orbital Simulator
 
-#### Video Demo: [Link to Video](<URL HERE>)
+#### Video Demo: [Link to Video](<https://youtu.be/GW-dfmwDNw0>)
 
 #### Description:
 The **Orbital Simulator** is a project developed as part of the **CS50 Python** course, designed to simulate the movement of planets and other celestial bodies within a simplified gravitational system. The simulator uses basic gravitational physics to calculate interactions between particles, such as planets and stars, in a 2D space. 
@@ -22,9 +22,6 @@ To start the simulation, run: `python project.py`
 - **config.csv**: Contains the initial configurations of the celestial bodies.
 - **test_project.py**: A test file to validate the project's operations.
 - **requirements.txt**: Lists the project dependencies.
-
-#### Demo:
-[Link to Video](<https://youtu.be/PlcgIq2bDAc>)
 
 ---
 
