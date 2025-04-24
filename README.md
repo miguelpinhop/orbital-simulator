@@ -9,14 +9,14 @@ The **Orbital Simulator** is a project developed as part of the **CS50 Python** 
 To install the project dependencies, run the following command: `pip install -r requirements.txt`
 
 #### Usage:
-To start the simulation, run: `python main.py`
+To start the simulation, run: `python project.py`
 
 #### Controls:
 - **Space**: Start/Pause the simulation
 - **R**: Restart the simulation
 
 #### Project Structure:
-- **main.py**: Contains the main game logic.
+- **project.py**: Contains the main game logic.
 - **particle.py**: Defines the `Particle` class, which represents celestial bodies.
 - **vector.py**: Implements mathematical operations on vectors.
 - **config.csv**: Contains the initial configurations of the celestial bodies.
@@ -72,7 +72,7 @@ The `Particle` class describes each body in the system, with attributes such as 
 
 **def __str__(self):** --> Returns a string representation of the particle’s properties, including position, velocity, acceleration, and applied force.
 
-### main.py:
+### project.py:
 The `Game` class manages the simulation logic and interacts with **Pyxel** for visualization. It includes:
 
 **def __init__(self):** --> Initializes the game window with a resolution of 1920x1080 and loads the initial particle configurations from the config.csv file. The simulation starts in a paused state (self.pause = 1). The pyxel.run(self.update, self.draw) function is called to start the main game loop.
